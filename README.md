@@ -13,7 +13,7 @@ All Saleor services started from a single repository
 1. Clone the repository:
 
 ```
-$ git clone git@github.com:mirumee/saleor-platform.git --recursive --jobs 3
+$ git clone https://github.com/mirumee/saleor-platform.git --recursive --jobs 3
 ```
 
 2. We are using shared folders to enable live code reloading. Without this, Docker Compose will not start:
@@ -124,6 +124,7 @@ $ docker system prune
 - Saleor Storefront - http://localhost:3000
 - Saleor Dashboard - http://localhost:9000
 - Jaeger UI (APM) - http://localhost:16686
+- Mailhog (Test email interface) - http://localhost:8025 
 
 
 If you have any questions or feedback, do not hesitate to contact us via Spectrum or Gitter:
